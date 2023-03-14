@@ -1,0 +1,2 @@
+rootProject.name='Road Safety'
+include ':app', ':HERE-sdk'

@@ -1,0 +1,109 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        tools:context=".MainActivity"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/avatarchallan"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/ninja"
+                android:layout_gravity="center_vertical"
+                android:background="@color/colorPrimary"
+                android:padding="5dp"></ImageView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@color/colorPrimary"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:text="Pay your challan on time to earn points and avoid further penalties!!"
+                android:textColor="#FFFFFF"
+                android:textStyle="italic"
+                ></TextView>
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="4dp"></Space>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+            <Space
+                android:layout_width="4dp"
+                android:layout_height="match_parent"></Space>
+            <ImageButton
+                android:id="@+id/tripchallan"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/trip"
+                android:layout_gravity="left"
+                android:contentDescription="Rewards link"/>
+            <Space
+                android:layout_width="310dp"
+                android:layout_height="50dp"></Space>
+            <ImageButton
+                android:id="@+id/rewardchallan"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/medal"
+                android:layout_gravity="end"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:contentDescription="Rewards link"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical">
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:paddingBottom="50dp"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:text="Your vehicle(TS09 XX 0000) has pending challans worth Rs.7000"></TextView>
+            <TextView
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:padding="50dp"
+                android:paddingBottom="80dp"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:text="Pay them before 15th October 2022 to avoid penalties and earn points"></TextView>
+            <Button
+                android:layout_width="160dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:background="@color/button"
+                android:text="Quick Payment"
+                ></Button>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

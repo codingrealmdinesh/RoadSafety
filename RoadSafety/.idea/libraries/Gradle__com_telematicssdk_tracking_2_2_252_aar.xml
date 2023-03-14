@@ -1,0 +1,24 @@
+<component name="libraryTable">
+  <library name="Gradle: com.telematicssdk:tracking:2.2.252@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/acb762b65b1e7bd7f9582e0790516e84/jetified-tracking-2.2.252/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/acb762b65b1e7bd7f9582e0790516e84/jetified-tracking-2.2.252/jars/libs/storio-common-annotations-processor-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/acb762b65b1e7bd7f9582e0790516e84/jetified-tracking-2.2.252/jars/libs/storio-common-annotations-processor-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/acb762b65b1e7bd7f9582e0790516e84/jetified-tracking-2.2.252/jars/libs/storio-common-annotations-processor.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/acb762b65b1e7bd7f9582e0790516e84/jetified-tracking-2.2.252/jars/libs/storio-sqlite-annotations-3.0.1.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/acb762b65b1e7bd7f9582e0790516e84/jetified-tracking-2.2.252/jars/libs/storio-sqlite-annotations-javadoc-3.0.1.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/acb762b65b1e7bd7f9582e0790516e84/jetified-tracking-2.2.252/jars/libs/storio-sqlite-annotations-processor-3.0.1.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/acb762b65b1e7bd7f9582e0790516e84/jetified-tracking-2.2.252/jars/libs/storio-sqlite-annotations-processor-javadoc-3.0.1.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/acb762b65b1e7bd7f9582e0790516e84/jetified-tracking-2.2.252/jars/libs/storio-sqlite-annotations-processor-sources-3.0.1.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/acb762b65b1e7bd7f9582e0790516e84/jetified-tracking-2.2.252/jars/libs/storio-sqlite-annotations-sources-3.0.1.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/acb762b65b1e7bd7f9582e0790516e84/jetified-tracking-2.2.252/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/acb762b65b1e7bd7f9582e0790516e84/jetified-tracking-2.2.252/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/acb762b65b1e7bd7f9582e0790516e84/jetified-tracking-2.2.252/jars/libs/storio-common-annotations-processor-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/acb762b65b1e7bd7f9582e0790516e84/jetified-tracking-2.2.252/jars/libs/storio-common-annotations-processor-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

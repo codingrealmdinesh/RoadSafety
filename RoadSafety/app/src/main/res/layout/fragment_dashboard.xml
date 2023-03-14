@@ -1,0 +1,338 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        tools:context=".MainActivity"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/avatardash"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/ninja"
+                android:layout_gravity="center_vertical"
+                android:background="@color/colorPrimary"
+                android:padding="5dp"></ImageView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@color/colorPrimary"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:text="You were distracted by your phone for 35 mins while driving!"
+                android:textColor="#FFFFFF"
+                android:textStyle="italic"
+                ></TextView>
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="4dp"></Space>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+            <Space
+                android:layout_width="4dp"
+                android:layout_height="match_parent"></Space>
+            <ImageButton
+                android:id="@+id/tripdash"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/trip"
+                android:layout_gravity="left"
+                android:contentDescription="Rewards link"/>
+            <Space
+                android:layout_width="310dp"
+                android:layout_height="50dp"></Space>
+            <ImageButton
+                android:id="@+id/rewarddash"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/medal"
+                android:layout_gravity="end"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:contentDescription="Rewards link"/>
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="500dp"
+                android:stretchColumns="1,2"
+                android:layout_margin="8dp">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="166dp" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="166dp"
+                        android:orientation="vertical"
+                        android:layout_column="1">
+
+                        <TextView
+                            android:id="@+id/city_speed_text"
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:layout_column="1"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:text="50 kmph"
+                            android:textSize="16dp"
+                            android:textStyle="bold"
+                            />
+                        <ImageView
+                            android:id="@+id/city_speed_image"
+                            android:layout_width="110dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/speedometer1">
+                        </ImageView>
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:layout_column="1"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:text="Avg City Speed"
+                            android:textSize="16dp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="166dp"
+                        android:orientation="vertical"
+                        android:layout_column="1">
+
+                        <TextView
+                            android:id="@+id/highway_speed_text"
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:layout_column="1"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:text="110 kmph"
+                            android:textSize="16dp"
+                            android:textStyle="bold" />
+                        <ImageView
+                            android:id="@+id/highway_speed_image"
+                            android:layout_width="110dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/speedometer7">
+                        </ImageView>
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:layout_column="1"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:text="Avg Highway Speed"
+                            android:textSize="16dp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="166dp" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="166dp"
+                        android:orientation="vertical"
+                        android:layout_column="1">
+
+                        <TextView
+                            android:id="@+id/cityspeedviolation_text"
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:layout_column="1"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:text="5"
+                            android:textSize="35dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:layout_column="1"
+                            android:gravity="center"
+                            android:text="City speed limit"
+                            android:textSize="16dp"
+                            android:textStyle="bold" />
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:layout_column="1"
+                            android:gravity="center"
+                            android:text="violations / 100km"
+                            android:textSize="16dp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="166dp"
+                        android:orientation="vertical"
+                        android:layout_column="1">
+
+                        <TextView
+                            android:id="@+id/highwayspeedviolation_text"
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:layout_column="1"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:text="5"
+                            android:textSize="35dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:layout_column="1"
+                            android:gravity="center"
+                            android:text="Highway speed limit"
+                            android:textSize="16dp"
+                            android:textStyle="bold" />
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:layout_column="1"
+                            android:gravity="center"
+                            android:text="violations / 100km"
+                            android:textSize="16dp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="166dp" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="166dp"
+                        android:orientation="vertical"
+                        android:layout_column="1">
+
+                        <TextView
+                            android:id="@+id/phonedistraction_text"
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:layout_column="1"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:text="15"
+                            android:textSize="35dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:layout_column="1"
+                            android:gravity="center"
+                            android:text="Phone distractions"
+                            android:textSize="16dp"
+                            android:textStyle="bold" />
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:layout_column="1"
+                            android:gravity="center"
+                            android:text="/ week"
+                            android:textSize="16dp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="166dp"
+                        android:orientation="vertical"
+                        android:layout_column="1">
+
+                        <TextView
+                            android:id="@+id/fines_text"
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:layout_column="1"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:text="₹ 12000"
+                            android:textSize="35dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:layout_column="1"
+                            android:gravity="center"
+                            android:text="Potential fines"
+                            android:textSize="16dp"
+                            android:textStyle="bold" />
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:layout_column="1"
+                            android:gravity="center"
+                            android:text="accrued"
+                            android:textSize="16dp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </TableRow>
+
+            </TableLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="80dp">
+
+                <ImageButton
+                    android:id="@+id/imageButton3"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="end"
+                    android:contentDescription="Rewards link"
+                    android:src="@drawable/lightbulb"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/hint_text"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Last week you were overspeeding for 45 kms, it saved just 23 mins"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:padding="10dp"
+                    android:layout_column="3"/>
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Road Safety</string>
+    <string name="title_home">Home</string>
+    <string name="title_rank">Leaderboard</string>
+    <string name="title_dashboard">Report</string>
+    <string name="title_notifications">Report</string>
+    <string name="title_challan">Pay Challan</string>
+
+    <string name="not_driver"><u>I was a Passenger</u></string>
+    <string name="origin_driver"><u>I was a Driver</u></string>
+    <string name="origin_passenger">I was a Passenger</string>
+    <string name="origin_bus">I was on a bus</string>
+    <string name="origin_taxi">I was in a taxi</string>
+    <string name="origin_train">I was on a train</string>
+    <string name="origin_bicycle">I was on a bicycle</string>
+    <string name="origin_motocycle">I was on a motorcycle</string>
+    <string name="origin_walking">I was walking</string>
+    <string name="origin_run">I was running</string>
+    <string name="origin_other">Other kind of transport</string>
+
+</resources>
